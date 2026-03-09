@@ -17,9 +17,6 @@ except:
     print("Некорректный формат!")
 
 
-# In[11]:
-
-
 # Задание 2
 spisok = [1, 2, 3, 4, 5]
 
@@ -33,18 +30,12 @@ for i in range(len(spisok)-1):
 print(flag)
 
 
-# In[45]:
-
-
 # Задание 3
 card = input("Введите номер карты: ")
 
 result = card[:4] + " **** **** " + card[-4:]
 
 print(result)
-
-
-# In[9]:
 
 
 # Задание 4
@@ -69,9 +60,6 @@ print(*mid)
 print(*small)
 
 
-# In[10]:
-
-
 # Задание 5
 text = input("Введите предложение: ")
 
@@ -88,18 +76,12 @@ for w in words:
 print(" ".join(result).replace(" ,", ","))
 
 
-# In[11]:
-
-
 # Задание 6
 text = input("Введите текст: ")
 
 for s in text:
     if text.count(s) == 1:
         print(s, end="")
-
-
-# In[44]:
 
 
 # Задание 7
@@ -111,9 +93,6 @@ new_spisok = [
 ]
 
 print(new_spisok)
-
-
-# In[35]:
 
 
 # Задание 8
@@ -131,9 +110,6 @@ spisok += [0] * (size - n)
 
 print("n =", n)
 print("Размер массива =", len(spisok))
-
-
-# In[2]:
 
 
 # Задание 9
@@ -165,9 +141,6 @@ else:
     print("Операция не может быть выполнена!")
 
 
-# In[3]:
-
-
 # Задание 10
 password = input("Введите пароль: ")
 
@@ -193,9 +166,6 @@ else:
     print("Надежный пароль")
 
 
-# In[12]:
-
-
 # Задание 11
 def frange(start, stop, step):
     x = start
@@ -205,9 +175,6 @@ def frange(start, stop, step):
 
 for x in frange(1, 5, 0.1):
     print(x)
-
-
-# In[2]:
 
 
 # Задание 12
@@ -224,9 +191,6 @@ signal = [1,2,3,4,5,6,7,8,9,10]
 
 for frame in get_frames(signal, size=4, overlap=0.5):
     print(frame)
-
-
-# In[3]:
 
 
 # Задание 13
@@ -246,9 +210,6 @@ for i, elem, cum, frac in extra_enumerate(x):
     print(elem, cum, round(frac,2))
 
 
-# In[4]:
-
-
 # Задание 14
 def non_empty(func):
 
@@ -262,9 +223,6 @@ def get_pages():
     return ['chapter1', '', 'contents', '', 'line1']
 
 print(get_pages())
-
-
-# In[5]:
 
 
 # Задание 15
@@ -292,9 +250,6 @@ def plot_signal(s):
         print(sample)
 
 plot_signal([1,2,3,4,5])
-
-
-# In[6]:
 
 
 # Задание 16
