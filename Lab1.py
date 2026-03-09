@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[47]:
-
-
 # Задание 1
 try:
     number = float(input("Введите число: "))
@@ -329,10 +326,3 @@ date = start
 for t1, t2 in games:
     print(f"{date.strftime('%d/%m/%Y, %H:%M')}  {t1} - {t2}")
     date += timedelta(days=14)
-
-
-# In[ ]:
-
-
-
-
